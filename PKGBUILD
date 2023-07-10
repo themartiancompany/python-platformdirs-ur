@@ -2,7 +2,7 @@
 # Contributor: Tobias Roettger <toroettg@gmail.com>
 
 pkgname=python-platformdirs
-pkgver=3.5.1
+pkgver=3.8.1
 pkgrel=1
 pkgdesc='A small Python module for determining appropriate platform-specific dirs, e.g. a "user data dir"'
 arch=('any')
@@ -12,7 +12,7 @@ depends=('python-typing_extensions')
 makedepends=('python-build' 'python-installer' 'python-hatchling' 'python-hatch-vcs')
 checkdepends=('python-pytest-mock' 'python-appdirs')
 source=("https://pypi.io/packages/source/p/platformdirs/platformdirs-$pkgver.tar.gz")
-sha512sums=('e3aa38bc943f9dc709dfaa3c6fe9e11f3b33d4263d1d41f7349d9926db2e41a36dd43c74ea2175ad89b107601f2dffded0f45e7703b9cb8ca9739945dee3c6fb')
+sha512sums=('85d7781e4ef0755bf9a7a4d90b92ea06f497081ec4c5438780f12876a1006b2e591c1b182f6648cad19039d1bd7611cf0c2215015653bafbad2cc529f27d94e7')
 
 build() {
   cd platformdirs-$pkgver

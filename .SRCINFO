@@ -1,6 +1,6 @@
 pkgbase = python-platformdirs
 	pkgdesc = A library to determine platform-specific system directories
-	pkgver = 4.0.0
+	pkgver = 4.1.0
 	pkgrel = 1
 	url = https://github.com/platformdirs/platformdirs
 	arch = any
@@ -15,7 +15,7 @@ pkgbase = python-platformdirs
 	makedepends = python-hatch-vcs
 	depends = python
 	depends = python-typing_extensions
-	source = python-platformdirs::git+https://github.com/platformdirs/platformdirs#commit=3935ea2cb801ae4a8a75da73bd49e52e0daaa01d
+	source = python-platformdirs::git+https://github.com/platformdirs/platformdirs#tag=4.1.0
 	b2sums = SKIP
 
 pkgname = python-platformdirs

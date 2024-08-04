@@ -1,3 +1,7 @@
+# SPDX-License-Identifier: AGPL-3.0
+#
+# Maintainer: Truocolo <truocolo@aol.com>
+# Maintainer: Pellegrino Prevete (tallero) <pellegrinoprevete@gmail.com>
 # Maintainer: George Rawlinson <grawlinson@archlinux.org>
 # Contributor: Felix Yan <felixonmars@archlinux.org>
 # Contributor: Tobias Roettger <toroettg@gmail.com>
@@ -54,4 +58,5 @@ package() {
   ln -s "$site_packages/${pkgname#python-}-$pkgver.dist-info/licenses/LICENSE" \
     "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
 }
+
 # vim:set ts=2 sw=2 et:
